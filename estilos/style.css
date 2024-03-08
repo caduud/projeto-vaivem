@@ -20,6 +20,7 @@ header{
     height: 15vh;
     display: flex;
     position: relative;
+    border-bottom: 1px solid #dff707;
 }
 
 div#logo{
@@ -78,6 +79,25 @@ main section#futebol{
     box-shadow: inset 2000px 2000px 150px rgba(0, 0, 0, 0.88);
     position: relative;
     background-size: cover;
+}
+
+main h1{
+    text-align: center;
+    color: #000000;
+    text-shadow: 1px 1px 6px #dff7072a;
+}
+
+div.hor{
+    width: 100%;
+    background-color: #E0F707;
+    position: absolute;
+    top: 95%;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main h1{
+    padding: 10px;
+    text-align: center;
 }
 
 main section#areia{
